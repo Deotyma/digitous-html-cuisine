@@ -1,0 +1,41 @@
+/* css homepage */
+
+main {
+    background-color: aqua;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
+}
+
+main h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 2rem;
+}
+
+main div div div {
+    padding-bottom: 1rem;
+}
+
+main img {
+    overflow: auto;
+}
+
+aside {
+    display: none;
+    background-color: blueviolet;
+}
+
+
+/* css media query */
+
+@media (min-width: 992px) {
+    aside {
+        display: grid;
+    }
+}
