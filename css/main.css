@@ -1,0 +1,45 @@
+header {
+    background-color: black;
+    background-image: url(./../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .navbar {
+    border-bottom: solid 1px;
+    border-color: white;
+}
+
+.navbar-brand {
+    font-family: 'Courgette', cursive;
+    ;
+}
+
+ul {
+    font-family: 'Oswald', sans-serif;
+    ;
+}
+
+header a {
+    color: white;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    font-family: 'Courgette', cursive;
+}
+
+.intro img {
+    align-self: center;
+    width: 5rem;
+}
