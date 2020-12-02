@@ -29,7 +29,8 @@ header .navbar {
 
 ul,
 button,
-input {
+input,
+textarea {
     font-family: 'Oswald', sans-serif;
 }
 
