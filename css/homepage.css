@@ -1,9 +1,5 @@
 /* css homepage */
 
-main {
-    background-color: aqua;
-}
-
 p {
     font-family: 'Oswald', sans-serif;
 }
@@ -23,12 +19,12 @@ main div div div {
 }
 
 main img {
-    overflow: auto;
+    width: 100%;
+    height: auto;
 }
 
 aside {
     display: none;
-    background-color: blueviolet;
 }
 
 
@@ -37,5 +33,22 @@ aside {
 @media (min-width: 992px) {
     aside {
         display: grid;
+        padding: 2rem;
+    }
+    .labels {
+        font-family: 'Courgette', cursive;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .media a {
+        color: black;
+        font-size: 1.5rem;
+    }
+    .media a:hover {
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 }
