@@ -40,28 +40,3 @@ main img {
     width: 100%;
     height: auto;
 }
-
-aside {
-    display: none;
-}
-
-
-/* css media query */
-
-@media (min-width: 992px) {
-    aside {
-        display: grid;
-        padding: 2rem;
-    }
-    .media a {
-        color: black;
-        font-size: 1.5rem;
-    }
-    .media a:hover {
-        background-color: black;
-        border-radius: 5px;
-        color: white;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-}
