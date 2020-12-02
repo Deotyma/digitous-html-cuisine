@@ -56,3 +56,51 @@ header a {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.labels {
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    background-color: white;
+    color: black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 5px;
+}
+
+.mediaF a {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.mediaF a:hover {
+    background-color: black;
+    color: white;
+}

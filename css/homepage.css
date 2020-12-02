@@ -35,11 +35,6 @@ aside {
         display: grid;
         padding: 2rem;
     }
-    .labels {
-        font-family: 'Courgette', cursive;
-        font-weight: bold;
-        font-size: 1rem;
-    }
     .media a {
         color: black;
         font-size: 1.5rem;
