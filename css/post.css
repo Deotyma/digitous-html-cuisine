@@ -6,24 +6,34 @@ header {
     height: 20vh;
 }
 
-.presentation img {
-    height: 20%;
-    width: auto;
-}
-
 .letter::first-letter {
     font-size: 400%;
     color: grey;
-    initial-letter: 2;
+    line-height: 20px;
+    float: left;
+    margin: 8px 8px 8px -8px;
 }
 
 .comentary,
 .comentaryGrey {
-    width: 5rem;
-    max-height: 80%;
-    overflow: hidden;
+    width: 64px;
+    height: 64px;
+    justify-content: center;
 }
 
 .comentaryGrey {
     opacity: 50%;
+}
+
+h4 a {
+    color: black;
+}
+
+h4 a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 5px;
 }
